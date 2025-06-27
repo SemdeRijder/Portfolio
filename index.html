@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mijn Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welkom op mijn portfolio</h1>
+    <nav>
+      <a href="#fotos">Foto's</a>
+      <a href="#videos">Video's</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="fotos">
+    <h2>Foto's</h2>
+    <div class="gallery">
+      <img src="foto1.jpg" alt="Foto 1" />
+      <img src="foto2.jpg" alt="Foto 2" />
+    </div>
+  </section>
+
+  <section id="videos">
+    <h2>Video's</h2>
+    <div class="videos">
+      <video controls src="video1.mp4"></video>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form action="mailto:jouwemail@example.com" method="post" enctype="text/plain">
+      <label>Naam: <input type="text" name="naam" required /></label><br />
+      <label>Email: <input type="email" name="email" required /></label><br />
+      <label>Bericht:<br /><textarea name="bericht" required></textarea></label><br />
+      <input type="submit" value="Versturen" />
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Jouw Naam</p>
+  </footer>
+</body>
+</html>
